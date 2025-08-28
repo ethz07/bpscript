@@ -1,10 +1,6 @@
 if game.CoreGui.RobloxGui:FindFirstChild("ScreenGui") then
-game.StarterGui:SetCore("SendNotification",{["Title"]="Error",["Text"]="You cannot re-run the cheat!",["Duration"]=4})
-game.StarterGui:SetCore("SendNotification",{["Title"]="Hata",["Text"]="Hileyi Tekrar Calistiramazsiniz!",["Duration"]=4})
-else
-wait (1)
-game.StarterGui:SetCore("SendNotification",{["Title"]="H4R7N Hack",["Text"]="Hile Yuklendi. H4R7N iyi Oyunlar Diler!",["Duration"]=4})
-game.StarterGui:SetCore("SendNotification",{["Title"]="H4R7N Hack",["Text"]="Cheat Loaded. H4R7N wishes you a good game!",["Duration"]=4})
+game.StarterGui:SetCore("SendNotification",{["Title"]="ethz Script",["Text"]=". . .",["Duration"]=4})
+game.StarterGui:SetCore("SendNotification",{["Title"]="ethz Script",["Text"]="Cheat Loaded.",["Duration"]=4})
 wait (1)
 
 -- Gui to Lua
