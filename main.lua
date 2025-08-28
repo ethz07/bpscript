@@ -63,7 +63,6 @@ local baslik_7 = Instance.new("TextLabel")
 local _1_4 = Instance.new("TextLabel")
 local _2_4 = Instance.new("TextLabel")
 local _3_3 = Instance.new("TextLabel")
-local versionhistory_2 = Instance.new("Frame")
 local back_5 = Instance.new("TextButton")
 local baslik_8 = Instance.new("TextLabel")
 local v12 = Instance.new("TextLabel")
@@ -344,10 +343,15 @@ baslik_4.TextSize = 20.000
 
 exit.Name = "exit"
 exit.Parent = Menu1
-exit.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
-exit.Position = UDim2.new(0.931560993, 0, 0, 0)
-exit.Size = UDim2.new(0, 75, 0, 50)
+exit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+exit.BackgroundTransparency = 0.2
+exit.Size = UDim2.new(0, 40, 0, 40) -- daha küçük
+exit.Position = UDim2.new(1, -45, 0, 5) -- sağ üst köşe (Menu1’in boyutuna göre ayar)
 exit.Image = "rbxassetid://142257725"
+
+local corner = Instance.new("UICorner")
+corner.CornerRadius = UDim.new(0, 10)
+corner.Parent = exit
 
 rage.Name = "rage"
 rage.Parent = Menu1
@@ -370,7 +374,7 @@ legit.BackgroundTransparency = 0.2
 legit.Text = "Legit Mode"
 legit.TextColor3 = Color3.fromRGB(255, 255, 255)
 legit.TextSize = 20.000
-
+--[[
 updated.Name = "updated"
 updated.Parent = Menu1
 updated.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -381,17 +385,10 @@ updated.Font = Enum.Font.Highway
 updated.Text = "Updated : 02.09.2021"
 updated.TextColor3 = Color3.fromRGB(0, 150, 0)
 updated.TextSize = 16.000
-
-legitpro.Name = "legitpro"
-legitpro.Parent = Menu1
-legitpro.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
-legitpro.Position = UDim2.new(0.49999997, 0, 0.495000064, 0)
-legitpro.Size = UDim2.new(0, 61, 0, 50)
-legitpro.Font = Enum.Font.SourceSans
-legitpro.Text = "Properties"
-legitpro.TextColor3 = Color3.fromRGB(0, 0, 0)
-legitpro.TextSize = 14.000
-
+]]--
+	
+--legitprodeleted
+--[[
 versionhistory.Name = "versionhistory"
 versionhistory.Parent = Menu1
 versionhistory.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
@@ -400,6 +397,7 @@ versionhistory.Font = Enum.Font.Highway
 versionhistory.Text = "Version History"
 versionhistory.TextColor3 = Color3.fromRGB(0, 0, 0)
 versionhistory.TextSize = 20.000
+--]]
 
 pro1.Name = "pro1"
 pro1.Parent = ScreenGui
@@ -562,13 +560,14 @@ _5_2.Font = Enum.Font.Highway
 _5_2.Text = "Anti AFK"
 _5_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 _5_2.TextSize = 18.000
-
+--[[
 legitpro_2.Name = "legitpro"
 legitpro_2.Parent = ScreenGui
 legitpro_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 legitpro_2.Position = UDim2.new(0.741521418, 0, 0.0337972157, 0)
 legitpro_2.Size = UDim2.new(0, 224, 0, 458)
 legitpro_2.Visible = false
+]]--
 
 back_4.Name = "back"
 back_4.Parent = legitpro_2
@@ -621,13 +620,14 @@ _3_3.Font = Enum.Font.Highway
 _3_3.Text = "Bulb On [Always]"
 _3_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 _3_3.TextSize = 18.000
-
+--[[
 versionhistory_2.Name = "versionhistory"
 versionhistory_2.Parent = ScreenGui
 versionhistory_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 versionhistory_2.Position = UDim2.new(0.337591231, 0, 0.0417495035, 0)
 versionhistory_2.Size = UDim2.new(0, 479, 0, 460)
 versionhistory_2.Visible = false
+]]--
 
 back_5.Name = "back"
 back_5.Parent = versionhistory_2
