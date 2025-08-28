@@ -355,22 +355,24 @@ exit.Image = "rbxassetid://142257725"
 
 rage.Name = "rage"
 rage.Parent = Menu1
-rage.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+rage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 rage.Position = UDim2.new(0.05,0,0.2,0)
 rage.Size = UDim2.new(0,250,0,50)
 rage.Font = Enum.Font.Highway
+rage.BackgroundTransparency = 0.2
 rage.Text = "Rage Menu"
-rage.TextColor3 = Color3.fromRGB(0, 0, 0)
+rage.TextColor3 = Color3.fromRGB(255, 255, 255)
 rage.TextSize = 20.000
 
 legit.Name = "legit"
 legit.Parent = Menu1
-legit.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+legit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 legit.Position = UDim2.new(0.05,0,0.45,0)
 legit.Size = UDim2.new(0,250,0,50)
 legit.Font = Enum.Font.Highway
+legit.BackgroundTransparency = 0.2
 legit.Text = "Legit Mode"
-legit.TextColor3 = Color3.fromRGB(0, 0, 0)
+legit.TextColor3 = Color3.fromRGB(255, 255, 255)
 legit.TextSize = 20.000
 
 updated.Name = "updated"
