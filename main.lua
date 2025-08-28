@@ -1,9 +1,3 @@
-if game.CoreGui.RobloxGui:FindFirstChild("ScreenGui") then
-game.StarterGui:SetCore("SendNotification",{["Title"]="Error",["Text"]="You cannot re-run the cheat!",["Duration"]=4})
-else
-wait (1)
-game.StarterGui:SetCore("SendNotification",{["Title"]="ethz Script",["Text"]="Cheat Loaded.",["Duration"]=4})
-wait (1)
 -- Gui to Lua
 -- Version: 3.2
 
