@@ -326,9 +326,12 @@ afk.TextSize = 14.000
 
 Menu1.Name = "Menu1"
 Menu1.Parent = ScreenGui
-Menu1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Menu1.BackgroundColor3 = Color3.fromRGB(0,0,0)
 Menu1.Position = UDim2.new(0.0599999987, 0, 0.354000002, 0)
-Menu1.Size = UDim2.new(0, 1100, 0, 200)
+Menu1.Size = UDim2.new(0, 300, 0, 250)
+Menu1.BackgroundTransparency = 0.2
+Menu1.BorderSizePixel = 0
+Menu1.ClipsDescendants = true
 
 baslik_4.Name = "baslik"
 baslik_4.Parent = Menu1
