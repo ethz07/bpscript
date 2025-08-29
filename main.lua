@@ -380,7 +380,7 @@ updated.Font = Enum.Font.Highway
 updated.Text = "Updated : 02.09.2021"
 updated.TextColor3 = Color3.fromRGB(0, 150, 0)
 updated.TextSize = 16.000
-]]--
+]]
 	
 --legitprodeleted
 --[[
@@ -392,7 +392,7 @@ versionhistory.Font = Enum.Font.Highway
 versionhistory.Text = "Version History"
 versionhistory.TextColor3 = Color3.fromRGB(0, 0, 0)
 versionhistory.TextSize = 20.000
---]]
+]]
 
 pro1.Name = "pro1"
 pro1.Parent = ScreenGui
@@ -562,7 +562,7 @@ legitpro_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 legitpro_2.Position = UDim2.new(0.741521418, 0, 0.0337972157, 0)
 legitpro_2.Size = UDim2.new(0, 224, 0, 458)
 legitpro_2.Visible = false
-]]--
+]]
 --[[
 versionhistory_2.Name = "versionhistory"
 versionhistory_2.Parent = ScreenGui
@@ -570,7 +570,7 @@ versionhistory_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 versionhistory_2.Position = UDim2.new(0.337591231, 0, 0.0417495035, 0)
 versionhistory_2.Size = UDim2.new(0, 479, 0, 460)
 versionhistory_2.Visible = false
-]]--
+]]
 
 -- Scripts:
 
